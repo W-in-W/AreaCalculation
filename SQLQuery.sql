@@ -1,5 +1,3 @@
-
-
 Select p.Name as 'ProductName', c.Name as 'CategoryName'
 From Product p
 Left Join ProductCategory pc On p.ProductId = pc.ProductId
