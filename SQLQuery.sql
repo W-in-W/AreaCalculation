@@ -1,5 +1,5 @@
-Select p.Name as 'ProductName', c.Name as 'CategoryName'
-From Product p
-Left Join ProductCategory pc On p.ProductId = pc.ProductId
-Left Join Category c On pc.CategoryId = c.CategoryId
-Order by c.Name desc
+SELECT p.Name AS 'ProductName', c.Name AS 'CategoryName'
+FROM Product p
+LEFT JOIN ProductCategory pc ON p.ProductId = pc.ProductId
+LEFT JOIN Category c ON pc.CategoryId = c.CategoryId
+ORDER BY c.Name DESC
